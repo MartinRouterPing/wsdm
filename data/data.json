@@ -1,0 +1,68 @@
+{
+  "websites": [
+    {
+      "id": 1,
+      "name": "A",
+      "domain": "www.test-a.com",
+      "build_path": "/websites/test/a",
+      "status": "online"
+    },
+    {
+      "id": 2,
+      "name": "B",
+      "domain": "",
+      "build_path": "/websites/test/b",
+      "status": "offline"
+    },
+    {
+      "id": 3,
+      "name": "C",
+      "domain": "www.test-c.com",
+      "build_path": "/websites/test",
+      "status": "online"
+    }
+  ],
+  "domains": [
+    {
+      "id": 1,
+      "name": "A",
+      "status": "online",
+      "billingDate": "31/12/2022"
+    },
+    {
+      "id": 2,
+      "name": "B",
+      "status": "offline",
+      "billingDate": "1/01/2022"
+    },
+    {
+      "id": 3,
+      "name": "C",
+      "status": "online",
+      "billingDate": "31/12/2022"
+    }
+  ],
+  "servers": [
+    {
+      "id": 1,
+      "name": "A",
+      "ip": "8.8.8.8",
+      "status": "offline",
+      "bilingDate": "01/01/2023"
+    },
+    {
+      "id": 2,
+      "name": "B",
+      "ip": "8.8.8.8",
+      "status": "online",
+      "bilingDate": "01/01/2023"
+    },
+    {
+      "id": 3,
+      "name": "C",
+      "ip": "8.8.8.8",
+      "status": "offline",
+      "bilingDate": "01/01/2023"
+    }
+  ]
+}
