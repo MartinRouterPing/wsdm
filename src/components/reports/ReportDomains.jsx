@@ -1,7 +1,8 @@
 import React from 'react'
 
 function ReportDomains(props) {
-  let hasRecords = props.data && props.data.length > 0
+  let { data } = props
+  let hasRecords = data && data.length > 0
   return (
     <table>
       {hasRecords && (
@@ -12,7 +13,7 @@ function ReportDomains(props) {
         </thead>
       )}
       <tbody>
-        {props.data.map((item) => (
+        {data?.map((item) => (
           <tr>
             <td>{item.name}</td>
             <td>{item.billingDate}</td>
